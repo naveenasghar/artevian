@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animated Section</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="logo">
+      <img src="./black-logo.webp" alt="Logo" />
+    </div>
+    <nav class="nav">
+      <ul>
+        <li><a href="./home.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Our Package</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hire-us">
+      <a href="#">Hire Us</a>
+    </div>
+  </header>
+
+  <!-- Animated Section -->
+  <section class="animated-hero">
+    <div class="text-content">
+      <h1>We specialize in <span class="changing-text"></span></h1>
+      <h2>Delivering innovative solutions tailored to your needs.</h2>
+      <div class="hero-buttons">
+        <a href="#" class="btn hire-us-btn">Hire Us</a>
+        <a href="#" class="btn contact-us-btn">Contact Us</a>
+      </div>
+    </div>
+    <div class="animated-image">
+      <img src="./images (1).jpg" alt="Animated Right Image">
+    </div>
+  </section>
+
+  <script>
+    // JavaScript for changing text
+    const texts = ["Mobile Apps", "Web Design", "Digital Marketing", "SEO"];
+    let index = 0;
+
+    function changeText() {
+      const changingText = document.querySelector('.changing-text');
+      changingText.textContent = texts[index];
+      index = (index + 1) % texts.length;
+    }
+
+    setInterval(changeText, 2000); // Change text every 2 seconds
+  </script>
+
+
+
+
+
+<section class="scroll-line">
+  <div class="scroll-content">
+    <div class="scroll-item">Branding</div>
+    <div class="scroll-item">Advertising</div>
+    <div class="scroll-item">UI/UX</div>
+    <div class="scroll-item">Website</div>
+    <div class="scroll-item">Mobile Apps</div>
+    <div class="scroll-item">Digital Marketing</div>
+    <div class="scroll-item">Search Engine Optimization</div>
+  </div>
+</section>
+
+
+
+
+
+
+<section class="magic-happen">
+  <h1><span class="highlight-text">At Artevian</span> We Make Magic Happen!</h1>
+  <p>We guarantee that you will receive design and development services that focus on generating a high return on investment with our smart web design services. Our web design pricing and combo packages are affordable and customized to match your business goals with a unique approach that maximizes your brand’s revenue.</p>
+</section>
+
+
+
+
+
+
+<section class="services">
+  <div class="service-box">
+    <img src="./pic 1.webp" alt="Image 1" />
+    <h3>Heading 1</h3>
+    <p>We actively engage with our clients to get the original concept of the project. Next, our creative teams collaborate and refine it into a brilliant masterpiece.</p>
+  </div>
+  <div class="service-box">
+    <img src="./pic2.webp" alt="Image 2" />
+    <h3>Heading 2</h3>
+    <p>We actively engage with our clients to get the original concept of the project. Next, our creative teams collaborate and refine it into a brilliant masterpiece.</p>
+  </div>
+  <div class="service-box">
+    <img src="./pic 3.png" alt="Image 3" />
+    <h3>Heading 3</h3>
+    <p>We actively engage with our clients to get the original concept of the project. Next, our creative teams collaborate and refine it into a brilliant masterpiece.</p>
+  </div>
+</section>
+
+
+
+
+
+
+<section class="logo-marquee">
+  <div class="logo-marquee-content">
+    <img src="./logo/logo 1.webp" alt="Logo 1" />
+    <img src="./logo/logo 2.webp" alt="Logo 2" />
+    <img src="./logo/logo3.webp" alt="Logo 3" />
+    <img src="./logo/logo 4.webp" alt="Logo 4" />
+    <img src="./logo/logo5.webp" alt="Logo 5" />
+    <img src="./logo/logo6.webp" alt="Logo 6" />
+    <img src="./logo/logo7.webp" alt="Logo 7" />
+    <img src="./logo/logo8.webp" alt="Logo 8" />
+    <img src="./logo/logo9.webp" alt="Logo 9" />
+    <img src="./logo/logo10.webp" alt="Logo 10" />
+  </div>
+</section>
+
+
+
+
+
+
+
+<section class="collection-section">
+  <h1>
+    A <span class="highlight">Collection</span> That Will Win Your Heart Over
+  </h1>
+  <p>
+    Reveal the potency of our logo design services, manifesting the fundamental essence of your business idea through our logo and brand design services. Our team's specialized expertise in niche markets positions us as the top choice in the business area.
+  </p>
+</section>
+
+
+
+
+
+<section class="button-section">
+  <div class="button-container">
+    <a href="#" class="button hire-us">Logo Design</a>
+    <a href="#" class="button">Art & Illustrartion</a>
+    <a href="#" class="button">B2B & B2C Portal</a>
+    <a href="#" class="button">Websites</a>
+  </div>
+</section>
+
+
+
+
+<section class="features-section">
+  <div class="feature-box">
+    <h1>Feature 1</h1>
+    <div class="feature-content">
+      <div class="feature-item">
+        <span class="checkmark">✔</span>
+        <p>Original Logo Concepts</p>
+      </div>
+      <div class="feature-item">
+        <span class="checkmark">✔</span>
+        <p>2 Dedicated Logo Designers</p>
+      </div>
+      <div class="feature-item">
+        <span class="checkmark">✔</span>
+        <p>4 Revisions</p>
+      </div>
+      <div class="feature-item">
+        <span class="checkmark">✔</span>
+        <p>With Grey Scale Format</p>
+      </div>
+      <div class="feature-item">
+        <span class="checkmark">✔</span>
+        <p>Email Signature Design</p>
+      </div>
+    </div>
+    <a href="#" class="start-now">Start Now</a>
+  </div>
+
+  <div class="feature-box">
+    <h1>Feature 2</h1>
+    <div class="feature-content">
+      <div class="feature-item">
+        <span class="checkmark">✔</span>
+        <p>Original Logo Concepts</p>
+      </div>
+      <div class="feature-item">
+        <span class="checkmark">✔</span>
+        <p>2 Dedicated Logo Designers</p>
+      </div>
+      <div class="feature-item">
+        <span class="checkmark">✔</span>
+        <p>4 Revisions</p>
+      </div>
+      <div class="feature-item">
+        <span class="checkmark">✔</span>
+        <p>With Grey Scale Format</p>
+      </div>
+      <div class="feature-item">
+        <span class="checkmark">✔</span>
+        <p>Email Signature Design</p>
+      </div>
+    </div>
+    <a href="#" class="start-now">Start Now</a>
+  </div>
+
+  <div class="feature-box">
+    <h1>Feature 3</h1>
+    <div class="feature-content">
+      <div class="feature-item">
+        <span class="checkmark">✔</span>
+        <p>Original Logo Concepts</p>
+      </div>
+      <div class="feature-item">
+        <span class="checkmark">✔</span>
+        <p>2 Dedicated Logo Designers</p>
+      </div>
+      <div class="feature-item">
+        <span class="checkmark">✔</span>
+        <p>4 Revisions</p>
+      </div>
+      <div class="feature-item">
+        <span class="checkmark">✔</span>
+        <p>With Grey Scale Format</p>
+      </div>
+      <div class="feature-item">
+        <span class="checkmark">✔</span>
+        <p>Email Signature Design</p>
+      </div>
+    </div>
+    <a href="#" class="start-now">Start Now</a>
+  </div>
+</section>
+
+
+
+
+
+
+
+<footer class="footer">
+  <div class="footer-left">
+    <h1>Artevian</h1>
+    <p>We are a creative team providing innovative design and development services to help businesses grow and thrive in the digital world.</p>
+  </div>
+  <div class="footer-center">
+    <h2>About Us</h2>
+    <nav class="footer-nav">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Our Package</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="footer-right">
+    <img src="./black-logo.webp" alt="Logo" class="footer-logo">
+    <div class="social-media">
+      <a href="#" class="social-icon"><img src="./insta.jpg" alt="Instagram"></a>
+      <a href="#" class="social-icon"><img src="./fb.webp" alt="Facebook"></a>
+      <a href="#" class="social-icon"><img src="./twitter.png" alt="Twitter"></a>
+    </div>
+  </div>
+</footer>
+
